@@ -16,8 +16,6 @@
 		9A98283920B7B00100D84EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A98283720B7B00100D84EAB /* Main.storyboard */; };
 		9A98284520B7B00100D84EAB /* macstudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A98284420B7B00100D84EAB /* macstudyTests.swift */; };
 		9A98285020B7B00100D84EAB /* macstudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A98284F20B7B00100D84EAB /* macstudyUITests.swift */; };
-		9AD85B1120C2A6B300F437D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD85B0F20C2A6B300F437D0 /* QuartzCore.framework */; };
-		9AD85B1220C2A6B300F437D0 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD85B1020C2A6B300F437D0 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +52,6 @@
 		9A98284B20B7B00100D84EAB /* macstudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macstudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A98284F20B7B00100D84EAB /* macstudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macstudyUITests.swift; sourceTree = "<group>"; };
 		9A98285120B7B00100D84EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AD85B0F20C2A6B300F437D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
-		9AD85B1020C2A6B300F437D0 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD85B1120C2A6B300F437D0 /* QuartzCore.framework in Frameworks */,
-				9AD85B1220C2A6B300F437D0 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +82,6 @@
 		9A98282520B7AFFE00D84EAB = {
 			isa = PBXGroup;
 			children = (
-				9AD85B1020C2A6B300F437D0 /* Quartz.framework */,
-				9AD85B0F20C2A6B300F437D0 /* QuartzCore.framework */,
 				9A98283020B7AFFE00D84EAB /* macstudy */,
 				9A98284320B7B00100D84EAB /* macstudyTests */,
 				9A98284E20B7B00100D84EAB /* macstudyUITests */,

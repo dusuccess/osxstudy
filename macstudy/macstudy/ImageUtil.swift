@@ -48,7 +48,6 @@ class ImageUtil:NSObject{
         panel.begin(completionHandler: { (result) in
             if(result == NSApplication.ModalResponse.OK){
                 let path = panel.url?.path
-                print(path)
                 let data = image.tiffRepresentation as! NSData
                 data.write(toFile: path!, atomically: true)
             }
